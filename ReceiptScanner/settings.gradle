@@ -1,0 +1,5 @@
+rootProject.name = "Receipt Scanner"
+include ':app'
+//include ':blinkreceipt:blinkreceipt-core'
+//include ':blinkreceipt:blinkreceipt-camera'
+//include ':blinkreceipt:blinkreceipt-recognizer'

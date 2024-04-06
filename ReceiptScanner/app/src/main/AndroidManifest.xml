@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.browserstack.receiptscanner">
+
+    <meta-data
+        android:name="com.microblink.LicenseKey"
+        android:value="sRwAAAAfY29tLmJyb3dzZXJzdGFjay5yZWNlaXB0c2Nhbm5lchFFRh7oVEBqEFCj1Yaj5i1f3OoNSItbg6NNtqS/+fU9h5E5VmRVej+EXGqKisGsSvbDo2/qYj9BvGwtPw9KXB54p6wgv94JC2QZvBZPitn+n41TTIj90dOeFiYjz5fM43RkiKJtWpsOdEaL647rqhDxgIB5qin7piAKDrSxZq98NNnOai6C" />
+    <meta-data android:name="com.microblink.AutoConfiguration" android:value="false" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ReceiptScanner">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
